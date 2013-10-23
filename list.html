@@ -86,7 +86,7 @@
 
         //返回对应位置item的数据对象
         public Object getItem(int position) {
-            return data[position];
+            return data.get(position);
         }
 
         //返回对应位置item的id，一般不直接用这个函数，而是getItem得到对象后，用对象的id
